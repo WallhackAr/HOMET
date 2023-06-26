@@ -1,0 +1,47 @@
+section{
+    background-color: aquamarine;
+    position: relative;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle{
+    border-radius: 50%;
+    height: 500px;
+    width: 500px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.carry{
+    background-color: antiquewhite;
+    position: relative;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.evento{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.girar{
+    animation-name: girar;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-timing-function: linear;
+    animation-play-state: paused;
+}
+@keyframes girar{
+    from{
+       transform: rotate(0deg);
+    }
+    to{
+       transform: rotate(360deg);
+    }
+}
